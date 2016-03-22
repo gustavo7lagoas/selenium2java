@@ -25,7 +25,3 @@ target/
 
 # Java annotation processor (APT)
 .factorypath
-
-# Code Recommenders
-.recommenders/
-/target/
