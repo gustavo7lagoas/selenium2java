@@ -24,6 +24,7 @@ public class FacebookTest {
 	public void setUp() {
 		driver = new FirefoxDriver();
 		driver.get("https://facebook.com");
+		driver.manage().window().maximize();
 		testProperties = new TestProperties("credentials.properties");
 		facebookLoginPage = PageFactory.initElements(driver, FacebookLoginPage.class);
 	}

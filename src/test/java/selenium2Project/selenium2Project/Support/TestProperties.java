@@ -1,6 +1,5 @@
 package selenium2Project.selenium2Project.Support;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
